@@ -11,13 +11,6 @@ from DKLineupOptimizer import LineupOptimizer
 from decimal import *
 import csv
 
-DB_HOST = '173.194.110.63'
-DB_PORT = 3306
-DB_USER = 'root'
-DB_PWD = 'Jermann1'
-DB_NAME = 'nbastats'
-STRATEGY_DIR = 'dkstrategies' 
-
 COEFFICIENTS = {'TwoGameDoubleDigitBlocks': -9.56025,
 'PrevGameDoubleDigitBlocks': -7.771493,
 'Intercept': -3.664901,
